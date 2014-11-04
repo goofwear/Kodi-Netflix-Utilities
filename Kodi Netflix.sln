@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix Offline Scraper", "Netflix Offline Scraper\Netflix Offline Scraper.csproj", "{D1C516B8-719B-48E4-99EC-CE0915A938D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetflixBrowser", "NetflixBrowser\NetflixBrowser.csproj", "{6217643B-B78F-478C-A86C-872E434D3A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateSeriesData", "UpdateSeriesData\UpdateSeriesData.csproj", "{32E8C851-8526-49A9-97A4-A4E484D66893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C516B8-719B-48E4-99EC-CE0915A938D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C516B8-719B-48E4-99EC-CE0915A938D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C516B8-719B-48E4-99EC-CE0915A938D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C516B8-719B-48E4-99EC-CE0915A938D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6217643B-B78F-478C-A86C-872E434D3A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6217643B-B78F-478C-A86C-872E434D3A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6217643B-B78F-478C-A86C-872E434D3A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6217643B-B78F-478C-A86C-872E434D3A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E8C851-8526-49A9-97A4-A4E484D66893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E8C851-8526-49A9-97A4-A4E484D66893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E8C851-8526-49A9-97A4-A4E484D66893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E8C851-8526-49A9-97A4-A4E484D66893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<Window x:Class="NetflixBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:osm="http://schemas.awesomium.com/winfx"
+        xmlns:core="clr-namespace:Awesomium.Core;assembly=Awesomium.Core" 
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" ResizeMode="NoResize" WindowState="Maximized" WindowStyle="None" >
+    <Window.Resources>
+
+    </Window.Resources>
+    <Grid Background="Black">
+        <osm:WebControl x:Name="OSM" AddressChanged="OSM_AddressChanged" Source="http://www.netflix.com" ViewType="Window"   />
+
+    </Grid>
+</Window>
