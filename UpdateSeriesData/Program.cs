@@ -50,11 +50,15 @@ namespace UpdateSeriesData
             Stream reqstream = webreq.GetRequestStream();
             reqstream.Write(data, 0, data.Length);
             reqstream.Close();
+            try
+            {
+                Stream objStream = webreq.GetResponse().GetResponseStream();
+                StreamReader reader = new StreamReader(objStream);
 
-            Stream objStream = webreq.GetResponse().GetResponseStream();
-            StreamReader reader = new StreamReader(objStream);
-
-            string response = reader.ReadToEnd();
+                string response = reader.ReadToEnd();
+            }
+            catch { }
+            
             //Console.Write(response);
         }
 
