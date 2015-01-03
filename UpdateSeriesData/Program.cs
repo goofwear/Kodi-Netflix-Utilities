@@ -108,7 +108,7 @@ namespace UpdateSeriesData
                 //if (!saveMetaPath.EndsWith(@"\")) saveMetaPath += @"\";
 
                 //saveMetaPath += @"Titles\" + Args["/SERIESID"].ToString() + @"\seasondata.json";
-                File.WriteAllText(saveMetaPath + "seasonddata.json", response);
+                File.WriteAllText(saveMetaPath + "seasondata.json", response);
 
 
                 string searchstring = response.Substring(response.IndexOf("\"episodes\":"));
